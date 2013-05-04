@@ -8,6 +8,8 @@ The REST API will be built using Node.JS, using the Express framework, and stori
 
 The REST API was created to act as a backend for an Ember.JS webapp using the default EmberData RESTAdapter. As such, the API follows certain EmberData specific conventions. The API itself however remains pure REST.
 
+The code is available in [Github](https://github.com/ddewaele/location-rest-api).
+
 ##Software requirements
 
 In order to run this sample, you'll need to install the following software :
