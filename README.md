@@ -60,7 +60,11 @@ MongoDB also comes with an interactive shell that you can start.
 
 ### All code required to run the REST API can be found at 
 
-To start the REST API, make sure that your MongoDB is up and running and simply type the following command to start the server
+To start the REST API, make sure that your MongoDB is up and running and type the following command to install the module dependencies
+
+	npm install
+
+Type in the following command to start the server :
 
 	node server.js
 
