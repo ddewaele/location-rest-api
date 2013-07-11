@@ -6,8 +6,7 @@ var Server = mongo.Server,
  
 var server = new Server('localhost', 27017, {auto_reconnect: true});
 
-db = new Db('locationdb', server);
- 
+db = new Db('locationdb', server, {safe:false});
 db.open(function(err, db) {
     if(!err) {
         console.log("Connected to 'locationdb' database");
