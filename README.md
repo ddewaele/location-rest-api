@@ -179,7 +179,7 @@ As you can see the JSON structure contains a root element indicating the element
 
 ### Curl command
 
-	curl -i -X POST -H 'Content-Type: application/json' -d '{"location": {{"latitude":37.3860517,"longitude":-122.0838511,"accuracy":5000}}' http://localhost:3000/locations
+	curl -i -X POST -H 'Content-Type: application/json' -d '{"location": {"latitude":37.3860517,"longitude":-122.0838511,"accuracy":5000}}' http://localhost:3000/locations
 
 As you can see, we are executing a ```POST``` request , containing a ```JSON``` payload, representing the location object we just saw. There's no ```_id``` field involved here, as we haven't persisted the object yet.
 
